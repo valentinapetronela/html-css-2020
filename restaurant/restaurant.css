@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Amatic+SC&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img {
+    height: 70px;
+}
+#navbarNavAltMarkup {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-family: "Alegreya";
+    font-weight: 700;
+    color: black;
+    font-size: 1.2em;
+}
+#header-back {
+    background-image: url(bg-header.jpg);
+    height: 100vh;
+    /* parallax effect */
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav.navbar {
+    position: fixed;
+    width: 100vw;
+    opacity: 0.9;
+}
+#ambiance {
+    background-image: url(ambiance.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+p {
+    font-family: "Alegreya";
+    font-size: 1.2em;
+}
+h2 {
+    font-family: "Amatic SC";
+    font-weight: 700;
+    font-size: 3em;
+}
+h2 span {
+    display: block;
+    text-align: center;
+}
+h2 span:nth-child(1){
+color: #33baaf;
+font-size: 0.7em;
+}
+h2 span:nth-child(1)::before,h2 span:nth-child(1)::after{
+content: "-";
+padding: 0.2em;
+}
+h2 span:nth-child(2)
+{
+    color: #f6af33;
+}
